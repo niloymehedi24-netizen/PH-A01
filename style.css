@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 13px 16px;
+
+}
+
+header{
+    background-color: #FFFFFF;
+    padding-top: 16px;
+}
+
+nav{
+    width: 91%;
+    max-width: 1600px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+nav .menu a{
+    font-size: 16px;
+    color: #000000;
+    line-height: 152%;
+    text-decoration: none;
+}
