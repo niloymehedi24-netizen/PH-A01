@@ -167,10 +167,10 @@ nav .menu a{
 .notes-info .info-card{
     padding: 24px;
     background-color: #FFFFFF;
-    /* box shadow is working */
     /* border: 1px solid red; */
     max-width: 322px;
     gap: 16px;
+    box-shadow: 0 6px 50px #00000010;
     border-radius: 8px;
 }
 
@@ -186,4 +186,70 @@ nav .menu a{
     font-weight: 400;
     line-height: 20px;
     color: #627382;
+}
+
+#brain .brain-container{
+    padding: 120px;
+    max-width: 1600px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#brain .brain-container img{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 6px 50px #00000010 ;
+}
+
+#brain .brain-container .brain-info{
+    height: 396px;
+    width: 700px;
+    padding: 102px 0px 102px 60px;
+    text-align:left;
+}
+
+#brain .brain-container .brain-info .title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+#brain .brain-container .brain-info h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#brain .brain-container .brain-info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 40px;  
+}
+
+#brain .brain-container .icon-info{
+    max-width: 700px;
+}
+
+#brain .brain-container .icon-info img{
+    height: 20px;
+    width: 20px;
+}
+
+#brain .brain-container .icon-info li{
+    margin-bottom: 16px;
+    list-style-type: none;
+    align-items:center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 40px; 
 }
